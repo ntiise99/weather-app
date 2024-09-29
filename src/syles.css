@@ -1,0 +1,14 @@
+body {
+  background: radial-gradient(666px at 0.4% 48%, #d5bdaf 0%, #f5ebe0 97.5%)
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+.weatherApp {
+  background: #d5bdaf;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+}
