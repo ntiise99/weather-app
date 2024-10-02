@@ -30,16 +30,18 @@
       <main>
         <div class="weatherAppData">
           <div>
-            <h1 class="weatherAppCity" id="city">Johannesburg</h1>
+            <h1 class="weatherAppCity" id="city"></h1>
             <p class="weatherAppDetails">
-              Sunday 19:30, Light rain
+              <span id="time"></span>
+              ,<span id="description"></span>
               <br />
-              Humidity: <strong>40%</strong>, Wind: <strong>21km/h</strong>
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weatherAppTempContainer">
-            <div class="weatherAppIcon">🌧</div>
-            <div class="weatherAppTempValue" id="temperature">21</div>
+            <div class="weatherAppIcon"></div>
+            <div class="weatherAppTempValue" id="temperature"></div>
             <div class="weatherAppUnit">°C</div>
           </div>
         </div>
